@@ -1,0 +1,21 @@
+{
+  "name": "a-better-jp-phone-regex",
+  "version": "0.0.0",
+  "description": "a better regex for japanese phone numbers",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.8.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sakatam/a-better-jp-phone-regex.git"
+  },
+  "author": "sakatam",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "230a5d0638c5f2c7ae1815d083fe42d67e83573c"
+}
