@@ -57,11 +57,25 @@ describe( "a better jp phone regex", function() {
     })
 
     it("should not match to invalid fixed phone numbers", function() {
+      assert.equal(false, jppr.all.test("111-1111"));
+      assert.equal(false, jppr.all.test("11-1111-1111"));
       assert.equal(false, jppr.all.test("050-111-1111"));
       assert.equal(false, jppr.all.test("010-11111-1111"));
       assert.equal(false, jppr.all.test("020-1111-1111"));
-      assert.equal(false, jppr.all.test("1111-11-111"));
     })
+
+    it("should ignore missing hyphens", function() {
+      assert.equal(true, jppr.all.test("039999-1111"));
+      assert.equal(true, jppr.all.test("0501111-1111"));
+      assert.equal(true, jppr.all.test("01267-1-1111"));
+    })
+
+    it("should not ignore extra hyphens", function() {
+      assert.equal(false, jppr.all.test("0-39999-1111"));
+      assert.equal(false, jppr.all.test("0501-111-1111"));
+      assert.equal(false, jppr.all.test("0126711-111"));
+    })
+
   })
 
 })
