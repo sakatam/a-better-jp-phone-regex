@@ -1,4 +1,4 @@
-a-better-jp-phone-regex
+a-better-jp-phone-regex  [![Build Status](https://travis-ci.org/sakatam/a-better-jp-phone-regex.png)](https://travis-ci.org/sakatam/a-better-jp-phone-regex)
 =======================
 
 a better (and not too explicit) set of regular expressions for japanese phone numbers based on ministry of internal affairs' spec (総務省).
