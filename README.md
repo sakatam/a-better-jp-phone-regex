@@ -15,3 +15,11 @@ http://www.soumu.go.jp/main_sosiki/joho_tsusin/top/tel_number/q_and_a-2001aug.ht
 
 ## Combined ##
     ^(0([1-9]{1}-?[1-9]\d{3}|[1-9]{2}-?\d{3}|[1-9]{2}\d{1}-?\d{2}|[1-9]{2}\d{2}-?\d{1})-?\d{4}|0[789]0-?\d{4}-?\d{4}|050-?\d{4}-?\d{4})$
+
+
+Uage - 使い方
+=============
+
+You can use "index.js" as a common JS module, but it would be way faster to just copy-paste the content of "Combined" section above.
+
+一応Common JSモジュールですが、上記の Cimbined の中の文字列をコピーして使うのが一番簡単だと思います。
