@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "~1.8.2"
+    "mocha": "~3"
   },
   "scripts": {
     "test": "mocha"
